@@ -1,0 +1,220 @@
+.Header{ 
+    display: flex; 
+    flex-direction: row; 
+    background-color: orange; 
+    height: 60px; 
+    width: border; 
+    text-align: center; 
+    justify-content: flex-end; 
+    padding-top: 8px;
+} 
+.h1 { 
+    justify-content: flex-start; 
+    padding-right: 50%; 
+    height: 10px; 
+    width: 10px; 
+    align-items: space-evenly; 
+    position: relative;
+} 
+.h1 img{ 
+    position: relative;
+    width: 150px; 
+    height: 60px; 
+    flex-wrap: wrap;
+}
+.Picture1{ 
+    display: flex;  
+    height: 500px; 
+    justify-content: center;
+} 
+.h3{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    display: flex; 
+    justify-content: center; 
+    z-index: 2; 
+    font-size: 20px; 
+    bottom: 225px;
+} 
+.h3 span{  
+    background-color: white; 
+    padding-right: 10px; 
+    padding-left: 10px;
+} 
+.h33{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    display: flex; 
+    justify-content: center; 
+    z-index: 2; 
+    font-size: 20px; 
+    bottom: 285px;
+} 
+.h33 span{  
+    background-color: white; 
+    padding-right: 10px; 
+    padding-left: 10px;
+} 
+.hamdis{ 
+    display: block;
+    position: absolute; 
+    z-index: 2; 
+    justify-content: space-evenly; 
+    padding-left: 10%; 
+    background-color: lightgray; 
+    bottom: 170px; 
+    width: 100%; 
+    height: 15%; 
+    flex-direction: row;
+} 
+.hamcont{ 
+    display: inline; 
+    list-style: none; 
+    padding-left: 5%;
+}
+.h2 { 
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly; 
+  } 
+.h2 span{ 
+    background-color: white; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+.indent{ 
+    display: flex; 
+    flex-direction: column; 
+    width: border;  
+    padding-left: 30px;
+} 
+.indent2{ 
+    display: flex; 
+    flex-direction: column; 
+    width: border; 
+    padding-left: 30px; 
+    background: lightgrey; 
+} 
+.indent3{ 
+    display: flex; 
+    flex-direction: column;
+    width: border;  
+    padding-left: 30px;
+}  
+.picindent{ 
+    display: flex; 
+    flex-wrap: wrap; 
+    width: border; 
+    justify-content: space-evenly; 
+} 
+.Footer{ 
+    display: flex; 
+    flex-direction: row; 
+    width: border; 
+    padding-left: 30px; 
+    background: orange; 
+    height: 50px; 
+    justify-content: flex-end;
+}
+a { 
+    text-decoration: none;
+    padding: 15px;
+    align-items: center; 
+    color: black;
+} 
+a:hover { 
+    color: blue; 
+} 
+.h4 { 
+    flex-direction: row;
+    justify-content: flex-start; 
+    padding-right: 40%; 
+    align-items: space-evenly; 
+    font-size: 15px; 
+    padding-top: 17px;
+} 
+.Review{ 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    width: 20%; 
+    padding-left: 40%;
+} 
+.Quote{ 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    text-align: center; 
+    background: lightgrey; 
+    font-size: 30px; 
+    padding-left: 10%; 
+    padding-right: 10%;
+} 
+.Ingredients{ 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-start; 
+}  
+ol{ 
+    width:50%; 
+    padding-left: 20%; 
+} 
+p.space { 
+    line-height: 1.5;
+} 
+.button1{  
+    display: flex; 
+    flex-direction: row;
+    border: none; 
+    border-radius: 30px;
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    font-size: 16px; 
+    cursor: pointer; 
+    background: orangered; 
+    justify-content: center;
+} 
+.button2{ 
+    display: flex; 
+    flex-direction: row;
+    border: none; 
+    border-radius: 100px;  
+    cursor: pointer; 
+    width: 3%; 
+    justify-content: center; 
+    position: relative; 
+    background: none;
+} 
+.button2 img{ 
+    position: absolute; 
+    border: none; 
+    border-radius: 100px;
+    text-align: center; 
+    cursor: pointer;  
+    justify-content: center; 
+    left: 500px; 
+    bottom: 0px; 
+    background: none;
+}
+.star{ 
+    width: 10%; 
+    height: 2%; 
+    position: absolute;
+}
+.review{ 
+    position: relative; 
+    left: 160px; 
+    bottom: 15px; 
+    font-size: 20px;
+} 
+.star img{ 
+    border: 100px black; 
+    background: black 100px;
+} 
+img { 
+    width: 100%;
+}
